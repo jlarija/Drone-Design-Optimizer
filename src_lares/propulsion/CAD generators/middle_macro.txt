@@ -1,0 +1,8 @@
+######## MACRO FOR CREATION OF SPLINE - SELECT POINT
+######## has to be repeated by the amount of points in a spline
+
+Set hybridShapePointCoord1 = hybridShapes1.Item("Point.4801")
+
+Set reference1 = part1.CreateReferenceFromObject(hybridShapePointCoord1)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference1, Nothing, -1.000000, 1, Nothing, 0.000000

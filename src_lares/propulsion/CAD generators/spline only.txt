@@ -1,0 +1,749 @@
+Language="VBSCRIPT"
+
+Sub CATMain()
+
+Set editor1 = CATIA.ActiveEditor
+
+Set part1 = editor1.ActiveObject
+
+Set hybridShapeFactory1 = part1.HybridShapeFactory
+
+Set hybridShapeSpline1 = hybridShapeFactory1.AddNewSpline()
+
+hybridShapeSpline1.SetSplineType 0
+
+hybridShapeSpline1.SetClosing 0
+
+Set hybridBodies1 = part1.HybridBodies
+
+Set hybridBody1 = hybridBodies1.Item("GeometryFromExcel")
+
+Set hybridShapes1 = hybridBody1.HybridShapes
+
+Set hybridShapePointCoord1 = hybridShapes1.Item("Point.5521")
+
+Set reference1 = part1.CreateReferenceFromObject(hybridShapePointCoord1)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference1, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord2 = hybridShapes1.Item("Point.5522")
+
+Set reference2 = part1.CreateReferenceFromObject(hybridShapePointCoord2)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference2, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord3 = hybridShapes1.Item("Point.5523")
+
+Set reference3 = part1.CreateReferenceFromObject(hybridShapePointCoord3)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference3, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord4 = hybridShapes1.Item("Point.5524")
+
+Set reference4 = part1.CreateReferenceFromObject(hybridShapePointCoord4)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference4, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord5 = hybridShapes1.Item("Point.5525")
+
+Set reference5 = part1.CreateReferenceFromObject(hybridShapePointCoord5)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference5, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord6 = hybridShapes1.Item("Point.5526")
+
+Set reference6 = part1.CreateReferenceFromObject(hybridShapePointCoord6)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference6, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord7 = hybridShapes1.Item("Point.5527")
+
+Set reference7 = part1.CreateReferenceFromObject(hybridShapePointCoord7)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference7, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord8 = hybridShapes1.Item("Point.5528")
+
+Set reference8 = part1.CreateReferenceFromObject(hybridShapePointCoord8)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference8, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord9 = hybridShapes1.Item("Point.5529")
+
+Set reference9 = part1.CreateReferenceFromObject(hybridShapePointCoord9)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference9, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord10 = hybridShapes1.Item("Point.5530")
+
+Set reference10 = part1.CreateReferenceFromObject(hybridShapePointCoord10)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference10, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord11 = hybridShapes1.Item("Point.5531")
+
+Set reference11 = part1.CreateReferenceFromObject(hybridShapePointCoord11)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference11, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord12 = hybridShapes1.Item("Point.5532")
+
+Set reference12 = part1.CreateReferenceFromObject(hybridShapePointCoord12)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference12, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord13 = hybridShapes1.Item("Point.5533")
+
+Set reference13 = part1.CreateReferenceFromObject(hybridShapePointCoord13)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference13, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord14 = hybridShapes1.Item("Point.5534")
+
+Set reference14 = part1.CreateReferenceFromObject(hybridShapePointCoord14)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference14, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord15 = hybridShapes1.Item("Point.5535")
+
+Set reference15 = part1.CreateReferenceFromObject(hybridShapePointCoord15)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference15, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord16 = hybridShapes1.Item("Point.5536")
+
+Set reference16 = part1.CreateReferenceFromObject(hybridShapePointCoord16)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference16, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord17 = hybridShapes1.Item("Point.5537")
+
+Set reference17 = part1.CreateReferenceFromObject(hybridShapePointCoord17)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference17, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord18 = hybridShapes1.Item("Point.5538")
+
+Set reference18 = part1.CreateReferenceFromObject(hybridShapePointCoord18)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference18, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord19 = hybridShapes1.Item("Point.5539")
+
+Set reference19 = part1.CreateReferenceFromObject(hybridShapePointCoord19)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference19, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord20 = hybridShapes1.Item("Point.5540")
+
+Set reference20 = part1.CreateReferenceFromObject(hybridShapePointCoord20)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference20, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord21 = hybridShapes1.Item("Point.5541")
+
+Set reference21 = part1.CreateReferenceFromObject(hybridShapePointCoord21)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference21, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord22 = hybridShapes1.Item("Point.5542")
+
+Set reference22 = part1.CreateReferenceFromObject(hybridShapePointCoord22)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference22, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord23 = hybridShapes1.Item("Point.5543")
+
+Set reference23 = part1.CreateReferenceFromObject(hybridShapePointCoord23)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference23, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord24 = hybridShapes1.Item("Point.5544")
+
+Set reference24 = part1.CreateReferenceFromObject(hybridShapePointCoord24)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference24, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord25 = hybridShapes1.Item("Point.5545")
+
+Set reference25 = part1.CreateReferenceFromObject(hybridShapePointCoord25)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference25, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord26 = hybridShapes1.Item("Point.5546")
+
+Set reference26 = part1.CreateReferenceFromObject(hybridShapePointCoord26)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference26, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord27 = hybridShapes1.Item("Point.5547")
+
+Set reference27 = part1.CreateReferenceFromObject(hybridShapePointCoord27)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference27, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord28 = hybridShapes1.Item("Point.5548")
+
+Set reference28 = part1.CreateReferenceFromObject(hybridShapePointCoord28)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference28, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord29 = hybridShapes1.Item("Point.5549")
+
+Set reference29 = part1.CreateReferenceFromObject(hybridShapePointCoord29)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference29, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord30 = hybridShapes1.Item("Point.5550")
+
+Set reference30 = part1.CreateReferenceFromObject(hybridShapePointCoord30)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference30, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord31 = hybridShapes1.Item("Point.5551")
+
+Set reference31 = part1.CreateReferenceFromObject(hybridShapePointCoord31)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference31, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord32 = hybridShapes1.Item("Point.5552")
+
+Set reference32 = part1.CreateReferenceFromObject(hybridShapePointCoord32)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference32, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord33 = hybridShapes1.Item("Point.5553")
+
+Set reference33 = part1.CreateReferenceFromObject(hybridShapePointCoord33)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference33, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord34 = hybridShapes1.Item("Point.5554")
+
+Set reference34 = part1.CreateReferenceFromObject(hybridShapePointCoord34)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference34, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord35 = hybridShapes1.Item("Point.5555")
+
+Set reference35 = part1.CreateReferenceFromObject(hybridShapePointCoord35)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference35, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord36 = hybridShapes1.Item("Point.5556")
+
+Set reference36 = part1.CreateReferenceFromObject(hybridShapePointCoord36)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference36, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord37 = hybridShapes1.Item("Point.5557")
+
+Set reference37 = part1.CreateReferenceFromObject(hybridShapePointCoord37)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference37, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord38 = hybridShapes1.Item("Point.5558")
+
+Set reference38 = part1.CreateReferenceFromObject(hybridShapePointCoord38)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference38, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord39 = hybridShapes1.Item("Point.5559")
+
+Set reference39 = part1.CreateReferenceFromObject(hybridShapePointCoord39)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference39, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord40 = hybridShapes1.Item("Point.5560")
+
+Set reference40 = part1.CreateReferenceFromObject(hybridShapePointCoord40)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference40, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord41 = hybridShapes1.Item("Point.5561")
+
+Set reference41 = part1.CreateReferenceFromObject(hybridShapePointCoord41)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference41, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord42 = hybridShapes1.Item("Point.5562")
+
+Set reference42 = part1.CreateReferenceFromObject(hybridShapePointCoord42)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference42, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord43 = hybridShapes1.Item("Point.5563")
+
+Set reference43 = part1.CreateReferenceFromObject(hybridShapePointCoord43)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference43, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord44 = hybridShapes1.Item("Point.5564")
+
+Set reference44 = part1.CreateReferenceFromObject(hybridShapePointCoord44)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference44, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord45 = hybridShapes1.Item("Point.5565")
+
+Set reference45 = part1.CreateReferenceFromObject(hybridShapePointCoord45)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference45, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord46 = hybridShapes1.Item("Point.5566")
+
+Set reference46 = part1.CreateReferenceFromObject(hybridShapePointCoord46)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference46, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord47 = hybridShapes1.Item("Point.5567")
+
+Set reference47 = part1.CreateReferenceFromObject(hybridShapePointCoord47)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference47, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord48 = hybridShapes1.Item("Point.5568")
+
+Set reference48 = part1.CreateReferenceFromObject(hybridShapePointCoord48)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference48, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord49 = hybridShapes1.Item("Point.5569")
+
+Set reference49 = part1.CreateReferenceFromObject(hybridShapePointCoord49)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference49, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord50 = hybridShapes1.Item("Point.5570")
+
+Set reference50 = part1.CreateReferenceFromObject(hybridShapePointCoord50)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference50, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord51 = hybridShapes1.Item("Point.5571")
+
+Set reference51 = part1.CreateReferenceFromObject(hybridShapePointCoord51)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference51, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord52 = hybridShapes1.Item("Point.5572")
+
+Set reference52 = part1.CreateReferenceFromObject(hybridShapePointCoord52)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference52, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord53 = hybridShapes1.Item("Point.5573")
+
+Set reference53 = part1.CreateReferenceFromObject(hybridShapePointCoord53)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference53, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord54 = hybridShapes1.Item("Point.5574")
+
+Set reference54 = part1.CreateReferenceFromObject(hybridShapePointCoord54)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference54, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord55 = hybridShapes1.Item("Point.5575")
+
+Set reference55 = part1.CreateReferenceFromObject(hybridShapePointCoord55)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference55, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord56 = hybridShapes1.Item("Point.5576")
+
+Set reference56 = part1.CreateReferenceFromObject(hybridShapePointCoord56)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference56, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord57 = hybridShapes1.Item("Point.5577")
+
+Set reference57 = part1.CreateReferenceFromObject(hybridShapePointCoord57)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference57, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord58 = hybridShapes1.Item("Point.5578")
+
+Set reference58 = part1.CreateReferenceFromObject(hybridShapePointCoord58)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference58, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord59 = hybridShapes1.Item("Point.5579")
+
+Set reference59 = part1.CreateReferenceFromObject(hybridShapePointCoord59)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference59, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord60 = hybridShapes1.Item("Point.5580")
+
+Set reference60 = part1.CreateReferenceFromObject(hybridShapePointCoord60)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference60, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord61 = hybridShapes1.Item("Point.5581")
+
+Set reference61 = part1.CreateReferenceFromObject(hybridShapePointCoord61)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference61, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord62 = hybridShapes1.Item("Point.5582")
+
+Set reference62 = part1.CreateReferenceFromObject(hybridShapePointCoord62)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference62, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord63 = hybridShapes1.Item("Point.5583")
+
+Set reference63 = part1.CreateReferenceFromObject(hybridShapePointCoord63)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference63, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord64 = hybridShapes1.Item("Point.5584")
+
+Set reference64 = part1.CreateReferenceFromObject(hybridShapePointCoord64)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference64, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord65 = hybridShapes1.Item("Point.5585")
+
+Set reference65 = part1.CreateReferenceFromObject(hybridShapePointCoord65)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference65, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord66 = hybridShapes1.Item("Point.5586")
+
+Set reference66 = part1.CreateReferenceFromObject(hybridShapePointCoord66)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference66, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord67 = hybridShapes1.Item("Point.5587")
+
+Set reference67 = part1.CreateReferenceFromObject(hybridShapePointCoord67)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference67, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord68 = hybridShapes1.Item("Point.5588")
+
+Set reference68 = part1.CreateReferenceFromObject(hybridShapePointCoord68)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference68, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord69 = hybridShapes1.Item("Point.5589")
+
+Set reference69 = part1.CreateReferenceFromObject(hybridShapePointCoord69)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference69, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord70 = hybridShapes1.Item("Point.5590")
+
+Set reference70 = part1.CreateReferenceFromObject(hybridShapePointCoord70)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference70, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord71 = hybridShapes1.Item("Point.5591")
+
+Set reference71 = part1.CreateReferenceFromObject(hybridShapePointCoord71)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference71, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord72 = hybridShapes1.Item("Point.5592")
+
+Set reference72 = part1.CreateReferenceFromObject(hybridShapePointCoord72)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference72, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord73 = hybridShapes1.Item("Point.5593")
+
+Set reference73 = part1.CreateReferenceFromObject(hybridShapePointCoord73)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference73, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord74 = hybridShapes1.Item("Point.5594")
+
+Set reference74 = part1.CreateReferenceFromObject(hybridShapePointCoord74)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference74, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord75 = hybridShapes1.Item("Point.5595")
+
+Set reference75 = part1.CreateReferenceFromObject(hybridShapePointCoord75)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference75, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord76 = hybridShapes1.Item("Point.5596")
+
+Set reference76 = part1.CreateReferenceFromObject(hybridShapePointCoord76)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference76, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord77 = hybridShapes1.Item("Point.5597")
+
+Set reference77 = part1.CreateReferenceFromObject(hybridShapePointCoord77)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference77, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord78 = hybridShapes1.Item("Point.5598")
+
+Set reference78 = part1.CreateReferenceFromObject(hybridShapePointCoord78)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference78, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord79 = hybridShapes1.Item("Point.5599")
+
+Set reference79 = part1.CreateReferenceFromObject(hybridShapePointCoord79)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference79, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord80 = hybridShapes1.Item("Point.5600")
+
+Set reference80 = part1.CreateReferenceFromObject(hybridShapePointCoord80)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference80, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord81 = hybridShapes1.Item("Point.5601")
+
+Set reference81 = part1.CreateReferenceFromObject(hybridShapePointCoord81)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference81, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord82 = hybridShapes1.Item("Point.5602")
+
+Set reference82 = part1.CreateReferenceFromObject(hybridShapePointCoord82)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference82, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord83 = hybridShapes1.Item("Point.5603")
+
+Set reference83 = part1.CreateReferenceFromObject(hybridShapePointCoord83)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference83, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord84 = hybridShapes1.Item("Point.5604")
+
+Set reference84 = part1.CreateReferenceFromObject(hybridShapePointCoord84)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference84, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord85 = hybridShapes1.Item("Point.5605")
+
+Set reference85 = part1.CreateReferenceFromObject(hybridShapePointCoord85)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference85, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord86 = hybridShapes1.Item("Point.5606")
+
+Set reference86 = part1.CreateReferenceFromObject(hybridShapePointCoord86)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference86, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord87 = hybridShapes1.Item("Point.5607")
+
+Set reference87 = part1.CreateReferenceFromObject(hybridShapePointCoord87)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference87, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord88 = hybridShapes1.Item("Point.5608")
+
+Set reference88 = part1.CreateReferenceFromObject(hybridShapePointCoord88)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference88, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord89 = hybridShapes1.Item("Point.5609")
+
+Set reference89 = part1.CreateReferenceFromObject(hybridShapePointCoord89)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference89, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord90 = hybridShapes1.Item("Point.5610")
+
+Set reference90 = part1.CreateReferenceFromObject(hybridShapePointCoord90)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference90, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord91 = hybridShapes1.Item("Point.5611")
+
+Set reference91 = part1.CreateReferenceFromObject(hybridShapePointCoord91)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference91, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord92 = hybridShapes1.Item("Point.5612")
+
+Set reference92 = part1.CreateReferenceFromObject(hybridShapePointCoord92)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference92, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord93 = hybridShapes1.Item("Point.5613")
+
+Set reference93 = part1.CreateReferenceFromObject(hybridShapePointCoord93)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference93, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord94 = hybridShapes1.Item("Point.5614")
+
+Set reference94 = part1.CreateReferenceFromObject(hybridShapePointCoord94)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference94, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord95 = hybridShapes1.Item("Point.5615")
+
+Set reference95 = part1.CreateReferenceFromObject(hybridShapePointCoord95)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference95, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord96 = hybridShapes1.Item("Point.5616")
+
+Set reference96 = part1.CreateReferenceFromObject(hybridShapePointCoord96)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference96, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord97 = hybridShapes1.Item("Point.5617")
+
+Set reference97 = part1.CreateReferenceFromObject(hybridShapePointCoord97)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference97, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord98 = hybridShapes1.Item("Point.5618")
+
+Set reference98 = part1.CreateReferenceFromObject(hybridShapePointCoord98)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference98, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord99 = hybridShapes1.Item("Point.5619")
+
+Set reference99 = part1.CreateReferenceFromObject(hybridShapePointCoord99)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference99, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord100 = hybridShapes1.Item("Point.5620")
+
+Set reference100 = part1.CreateReferenceFromObject(hybridShapePointCoord100)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference100, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord101 = hybridShapes1.Item("Point.5621")
+
+Set reference101 = part1.CreateReferenceFromObject(hybridShapePointCoord101)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference101, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord102 = hybridShapes1.Item("Point.5622")
+
+Set reference102 = part1.CreateReferenceFromObject(hybridShapePointCoord102)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference102, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord103 = hybridShapes1.Item("Point.5623")
+
+Set reference103 = part1.CreateReferenceFromObject(hybridShapePointCoord103)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference103, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord104 = hybridShapes1.Item("Point.5624")
+
+Set reference104 = part1.CreateReferenceFromObject(hybridShapePointCoord104)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference104, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord105 = hybridShapes1.Item("Point.5625")
+
+Set reference105 = part1.CreateReferenceFromObject(hybridShapePointCoord105)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference105, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord106 = hybridShapes1.Item("Point.5626")
+
+Set reference106 = part1.CreateReferenceFromObject(hybridShapePointCoord106)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference106, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord107 = hybridShapes1.Item("Point.5627")
+
+Set reference107 = part1.CreateReferenceFromObject(hybridShapePointCoord107)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference107, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord108 = hybridShapes1.Item("Point.5628")
+
+Set reference108 = part1.CreateReferenceFromObject(hybridShapePointCoord108)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference108, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord109 = hybridShapes1.Item("Point.5629")
+
+Set reference109 = part1.CreateReferenceFromObject(hybridShapePointCoord109)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference109, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord110 = hybridShapes1.Item("Point.5630")
+
+Set reference110 = part1.CreateReferenceFromObject(hybridShapePointCoord110)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference110, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord111 = hybridShapes1.Item("Point.5631")
+
+Set reference111 = part1.CreateReferenceFromObject(hybridShapePointCoord111)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference111, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord112 = hybridShapes1.Item("Point.5632")
+
+Set reference112 = part1.CreateReferenceFromObject(hybridShapePointCoord112)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference112, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord113 = hybridShapes1.Item("Point.5633")
+
+Set reference113 = part1.CreateReferenceFromObject(hybridShapePointCoord113)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference113, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord114 = hybridShapes1.Item("Point.5634")
+
+Set reference114 = part1.CreateReferenceFromObject(hybridShapePointCoord114)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference114, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord115 = hybridShapes1.Item("Point.5635")
+
+Set reference115 = part1.CreateReferenceFromObject(hybridShapePointCoord115)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference115, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord116 = hybridShapes1.Item("Point.5636")
+
+Set reference116 = part1.CreateReferenceFromObject(hybridShapePointCoord116)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference116, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord117 = hybridShapes1.Item("Point.5637")
+
+Set reference117 = part1.CreateReferenceFromObject(hybridShapePointCoord117)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference117, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord118 = hybridShapes1.Item("Point.5638")
+
+Set reference118 = part1.CreateReferenceFromObject(hybridShapePointCoord118)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference118, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord119 = hybridShapes1.Item("Point.5639")
+
+Set reference119 = part1.CreateReferenceFromObject(hybridShapePointCoord119)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference119, Nothing, -1.000000, 1, Nothing, 0.000000
+
+Set hybridShapePointCoord120 = hybridShapes1.Item("Point.5640")
+
+Set reference120 = part1.CreateReferenceFromObject(hybridShapePointCoord120)
+
+hybridShapeSpline1.AddPointWithConstraintExplicit reference120, Nothing, -1.000000, 1, Nothing, 0.000000
+
+hybridBody1.AppendHybridShape hybridShapeSpline1
+
+part1.InWorkObject = hybridShapeSpline1
+
+part1.Update 
+
+End Sub

@@ -1,0 +1,49 @@
+﻿Brand,Product Name,KV [RPM/V],Max Power [W],Peak Current [A],Rated Voltage [*S],Motor Weight [g],Diameter [mm],Height [mm],Internal Resistance [mΩ],Package Weight [g],Operating Temperature [°C],Prop Recommendation [inch],Source
+Tmotor,MN1018,72,6888,79,12-24S,1020,121,46.5,38,1420,155,34-36,https://uav-en.tmotor.com/html/2021/navigato_0115/665.html
+Tmotor,MN1010,90,2739,56,6-12S,630,118,34,46,1010,NF,32-34,https://uav-en.tmotor.com/html/2020/navigato_1019/375.html
+Tmotor,MN1010,135,4930,104,6-12S,645,118,34,25,1028,NF,30-32,https://uav-en.tmotor.com/html/2020/navigato_1019/375.html
+Tmotor,MN1015,70,5800,66.5,12-24S,855,121,43.5,49,1260,195,34-36,https://uav-en.tmotor.com/html/2021/navigato_0115/664.html
+Tmotor,P60,170,1800,38,6-14S,373,69,36.5,80,NF,85,20-22,https://uav-en.tmotor.com/html/2019/p_1108/301.html
+Tmotor,P60,340,1550,65,6-8S,373,69,36.5,80,NF,78,20-22,https://uav-en.tmotor.com/html/2019/p_1108/301.html
+Tmotor,P80III,100,2700,60,6-12S,649,91.6,43,45-51,NF,NF,30-32,https://uav-en.tmotor.com/html/2019/p_0129/208.html
+Tmotor,P80III,120,3600,70,6-12S,649,91.6,43,36-41,NF,NF,29-30,https://uav-en.tmotor.com/html/2019/p_0129/208.html
+Tmotor,U3,700,500,25,3-4S,128,41.8,30.75,50,NF,47,Nov/14,https://uav-en.tmotor.com/html/2018/u_0222/3.html
+Tmotor,U5,400,850,30,3-8S,195,42.5,37.5,116,NF,59,14-16,https://uav-en.tmotor.com/html/2018/u_0330/4.html
+Tmotor,U7,280,800,35,3-8S,317,60.7,39.5,71,NF,78,18-22,https://uav-en.tmotor.com/html/2018/u_0330/5.html
+Tmotor,U7,420,1180,40,3-8S,296,60.7,39.5,33,NF,59,15-18,https://uav-en.tmotor.com/html/2018/u_0330/5.html
+Tmotor,U11,90,3000,60,6-12S,815,80,50,99,NF,100,26-30,https://uav-en.tmotor.com/html/2018/u_0330/6.html
+Tmotor,U11,120,4000,80,6-12S,792,80,50,57,NF,100,26-29,https://uav-en.tmotor.com/html/2018/u_0330/6.html
+Tmotor,U11II,120,2783,57.3,12S,772,79.5,51.6,80,NF,118,26-28,https://uav-en.tmotor.com/html/2018/u_1121/185.html
+Tmotor,U13,85,3120,65,6-12S,1280,118.4,56.8,23,NF,100,28-36,https://uav-en.tmotor.com/html/2018/u_1106/7.html
+Tmotor,U13,100,3848,80,6-12S,1300,118.4,56.8,18,NF,100,26-36,https://uav-en.tmotor.com/html/2018/u_1106/7.html
+Tmotor,U13II,130,5659,118,10-14S,990,100,60,18,NF,132,32,https://uav-en.tmotor.com/html/2019/u_0121/206.html
+Tmotor,U13II,65,6720,68,22-25S,975,100,60,73,NF,115,30-32,https://uav-en.tmotor.com/html/2019/u_0121/206.html
+Tmotor,U15II,80,8580,143,12-24S,1740,147.5,64,17,NF,65,40,https://uav-en.tmotor.com/html/2018/u_0330/8.html
+Tmotor,U15II,100,9942,171,12-24S,1740,147.5,64,12,NF,112,40,https://uav-en.tmotor.com/html/2018/u_0330/8.html
+Tmotor,U8II Lite,100,3182,68,12S,256,87.3,26.05,134-141,423,71,27-28,https://uav-en.tmotor.com/html/2021/u_0318/711.html
+Tmotor,U8 Lite L,95,1790,38,12S,280,87.1,28.05,146,NF,87,29-32,https://uav-en.tmotor.com/html/2020/u_0930/373.html
+Tmotor,U8 Lite L,110,2140,45.8,12S,282,87.1,28.05,105,NF,91,28-30,https://uav-en.tmotor.com/html/2020/u_0930/373.html
+Tmotor,U8,100,750,24,6-12S,245,86.8,26.5,186,NF,41,26-29,https://uav-en.tmotor.com/html/2018/u_1106/9.html
+Tmotor,U8,135,940,30,6-12S,242,86.8,26.5,137,NF,48,26-29,https://uav-en.tmotor.com/html/2018/u_1106/9.html
+Tmotor,U8,170,1300,35,6-12S,242,86.8,26.5,89,NF,100,26-29,https://uav-en.tmotor.com/html/2018/u_1106/9.html
+Tmotor,U8 PRO,100,490,15,6-12S,257,86.8,26.5,179,NF,65,26-30,https://uav-en.tmotor.com/html/2018/u_0330/10.html
+Tmotor,U8 PRO,135,490,20,6-12S,256,86.8,26.5,127,NF,100,26-30,https://uav-en.tmotor.com/html/2018/u_0330/10.html
+Tmotor,U8II,85,916.8,19.1,12S,277,87.1,29.1,225,NF,100,28-29,https://uav-en.tmotor.com/html/2018/u_0402/22.html
+Tmotor,U8II,100,1406.4,29.3,12S,272,87.1,29.1,170,NF,100,27-28,https://uav-en.tmotor.com/html/2018/u_0402/22.html
+Tmotor,U8II,150,1272,26.5,6-12S,273,87.1,29.1,85,NF,100,28-30,https://uav-en.tmotor.com/html/2018/u_0402/22.html
+Tmotor,U8II,190,1048.8,43.7,6S,277,87.1,29.1,48,NF,100,28-29,https://uav-en.tmotor.com/html/2018/u_0402/22.html
+Tmotor,U8 Lite,85,916.8,19.1,12S,243,87.1,27.05,225,NF,100,28-29,https://uav-en.tmotor.com/html/2018/u_0402/21.html
+Tmotor,U8 Lite,100,1406.4,29.3,12S,238,87.1,27.05,170,NF,100,27-28,https://uav-en.tmotor.com/html/2018/u_0402/21.html
+Tmotor,U8 Lite,150,1272,26.5,6-12S,239,87.1,27.05,85,NF,100,28-30,https://uav-en.tmotor.com/html/2018/u_0402/21.html
+Tmotor,U8 Lite,190,1048.8,43.7,6S,243,87.1,27.05,48,NF,100,28-29,https://uav-en.tmotor.com/html/2018/u_0402/21.html
+Tmotor,U10,80,1200,25,6-12S,405,86.8,35.5,135,NF,100,NF,https://uav-en.tmotor.com/html/2018/u_0330/11.html
+Tmotor,U10,100,1500,35,6-12S,405,86.8,35.5,112,NF,100,NF,https://uav-en.tmotor.com/html/2018/u_0330/11.html
+Tmotor,U10 PLUS,80,1500,33,6-12S,500,88.6,40,95,NF,100,NF,https://uav-en.tmotor.com/html/2018/u_1106/12.html
+Tmotor,U10 PLUS,100,1700,36,6-12S,508,88.6,40,60,NF,100,NF,https://uav-en.tmotor.com/html/2018/u_1106/12.html
+Tmotor,U10 PLUS,170,2000,60,6-12S,511,88.6,40,21,NF,100,NF,https://uav-en.tmotor.com/html/2018/u_1106/12.html
+Tmotor,U10 II,100,1600,32.4,12S,415,98.6,33.1,101,NF,100,28-30,https://uav-en.tmotor.com/html/2018/u_1020/20.html
+Tmotor,BMS RAPTOR V2 2306.5 RACING MOTOR,2000,977,40,6S,32.1,27.9,29.8,62,NF,99,NF,https://uav-en.tmotor.com/html/2021/F_0817/748.html
+Tmotor,F100 2810 cinematic motor,1100,1176,45.59,6S,58,33.4,38.05,61,NF,98,NF,https://uav-en.tmotor.com/html/2021/F_0910/750.html
+Tmotor,F100 2810 cinematic motor,1350,1237,61.65,6-5S,57.5,33.4,38.05,42,NF,97,NF,https://uav-en.tmotor.com/html/2021/F_0910/750.html
+Tmotor,F1404,3800,304,19,3-4S,9.34,17.9,16.6,195,NF,50,NF,https://uav-en.tmotor.com/2021/Motor_0107/660.html
+Tmotor,F1404,4600,316,20,3-4S,9.34,17.9,16.6,138,NF,48,NF,https://uav-en.tmotor.com/2021/Motor_0107/660.html

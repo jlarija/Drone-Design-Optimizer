@@ -1,0 +1,14 @@
+### THIS PART IS FOR THE TRANSITION BETWEEN 2 SPLINES
+### to change: number of hybrid body (1,2) and so on 
+
+hybridBody1.AppendHybridShape hybridShapeSpline1
+
+part1.InWorkObject = hybridShapeSpline1
+
+part1.Update 
+
+Set hybridShapeSpline2 = hybridShapeFactory1.AddNewSpline()
+
+hybridShapeSpline2.SetSplineType 0
+
+hybridShapeSpline2.SetClosing 0

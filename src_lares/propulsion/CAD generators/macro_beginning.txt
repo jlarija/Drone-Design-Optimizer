@@ -1,0 +1,22 @@
+###### BEGINNING OF SPLINES MACRO 
+### REQUIRED CHANGES: NONE IF YOU START FROM SPLINE 1 WHICH YOU DO -> no changes 
+
+Sub CATMain()
+
+Set editor1 = CATIA.ActiveEditor
+
+Set part1 = editor1.ActiveObject
+
+Set hybridShapeFactory1 = part1.HybridShapeFactory
+
+Set hybridShapeSpline1 = hybridShapeFactory1.AddNewSpline()
+
+hybridShapeSpline1.SetSplineType 0
+
+hybridShapeSpline1.SetClosing 0
+
+Set hybridBodies1 = part1.HybridBodies
+
+Set hybridBody1 = hybridBodies1.Item("GeometryFromExcel")
+
+Set hybridShapes1 = hybridBody1.HybridShapes
